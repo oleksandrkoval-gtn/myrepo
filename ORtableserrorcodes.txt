@@ -1,0 +1,4074 @@
+Software error table Info
+NOTICE
+Reading of errors from the error log is to be done and relevant only at an O.R.
+Table that is assembled and connected completely. During repair work PC boards,
+pulse sensors etc. may be not connected completely. This will lead to entries in the
+error logs. In addition, all entries must be considered together within the same
+period of time (timestamp). In many cases one error may create further other error
+entries. e.g.: If a PCB is defective, this may entail another error message regarding
+the missing CAN bus registration of the PCB in question. This additional error will
+also disappear by replacement of the PCB.
+Error
+Code
+Log Text Error description
+(from Service)
+Measure service technician
+(from Service)
+measure hospital technician
+(from Service)
+010 Usage of the
+stack has
+changed.
+Internal information
+for software development.
+1. Notify the Technical Support.
+1. Inform Service.
+011 An error in
+"on bus acknowledge"
+module occurred.
+Internal information
+for software development.
+1. Notify the Technical Support.
+1. Inform Service.
+267 The logging
+task had an
+internal error.
+Internal information
+for software development.
+1. Notify the Technical Support.
+1. Inform Service.
+268 Timing information
+due to extended cpu usage.
+Internal information
+for software development.
+1. Notify the Technical Support.
+1. Inform Service.
+425 A degradation request
+was applied
+with severity:
+feedback
+Info message No action required. No action required.
+426 A degradation request
+was applied
+with severity:
+speed
+Info message No action required. No action required.
+427 A degradation request
+was applied
+with severity:
+anomaly
+handling
+Info message No action required. No action required.
+Error description
+Identification of errors using the software | Software error table Info 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 61 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure service technician
+(from Service)
+measure hospital technician
+(from Service)
+428 A degradation request
+was applied
+with severity:
+temporary
+stop
+Info message No action required. No action required.
+429 A degradation request
+was applied
+with severity:
+final stop
+Info message No action required. No action required.
+609 User activation / deactivation of
+the safety
+features.
+Info message No action required. No action required.
+615 Collision of
+OR table detected.
+Info message Collision was recognized
+No action required. No action required.
+645 Tipping risk
+of OR table
+detected.
+Info message No action required. No action required.
+651 Overload of
+longitudinal
+shift detected.
+Info message No action required. No action required.
+652 Overload of
+body elevator detected.
+Info message No action required. No action required.
+88E Safety features enabled by use
+of override
+panel.
+Info message No action required. No action required.
+8B4 EStop active
+when trying
+to move robot arms.
+N/A No action required. No action required.
+8B5 A XML
+parser error
+occurred.
+N/A No action required. No action required.
+F35 The batteries
+are re-balanced again
+Info message No action required. No action required.
+Error description
+Identification of errors using the software | Software error table Info 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 62 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure service technician
+(from Service)
+measure hospital technician
+(from Service)
+F41 The seven
+days counter
+was postponed
+Info message No action required. No action required.
+F42 The seven
+days counter
+expired
+Info message No action required. No action required.
+F43 Shipping
+Mode got selected
+Info message No action required. No action required.
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 63 / 1148
+4.2.4 | Software error table Warning
+NOTICE
+Reading of errors from the error log is to be done and relevant only at an O.R.
+Table that is assembled and connected completely. During repair work PC boards,
+pulse sensors etc. may be not connected completely. This will lead to entries in the
+error logs. In addition, all entries must be considered together within the same
+period of time (timestamp). In many cases one error may create further other error
+entries. e.g.: If a PCB is defective, this may entail another error message regarding
+the missing CAN bus registration of the PCB in question. This additional error will
+also disappear by replacement of the PCB.
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+002 An error in
+heartbeat
+timeout module occured.
+Software error 1. Notify Technical support. 1. Inform Service
+003 An error in
+control module state
+handling occured.
+Software error 1. Notify Technical support. 1. Inform Service
+007 An error in
+power down
+module occured.
+Software error 1. Notify Technical support. 1. Inform Service
+009 Heartbeat
+timeout has
+been disabled.
+Control unit does
+not switch off
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the switch positions
+of the controls: Column
+controller unit S2 “off” table
+top controller unit S2 “off”
+base controller unit S1 "off".
+2. Check CAN bus connection
+and plug connections.
+3. If the error message is still
+displayed after checking
+the switch position, replace
+the affected control unit.
+1. Inform Service
+00 A Hotplug not
+ready.
+N/A 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 64 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+012 A control
+module item
+reported a
+problem
+while notify
+observers.
+Software error 1. Notify Technical support. 1. Inform Service
+013 Warning
+while reading persistent data
+from
+memory
+Sensor values
+could not be read
+from the persistent
+memory
+The "Warning" for
+reading persistent
+data occurs when a
+failed read operation is detected for
+the first time. A
+single detection is
+not critical. Subsequent errors lead
+to an "error" when
+reading persistent
+data.
+If the error occurs now and
+then only
+1. Adjust the O.R. table.
+If the error occurs several
+times
+1. Adjust the O.R. table.
+2. If the error message is still
+displayed after adjustment,
+the affected controller unit
+must be replaced.
+1. Notify service
+015 Warning
+while saving
+persistent
+data to
+memory
+Sensor values
+could not be written
+to the persistent
+memory
+The "Warning" for
+reading persistent
+data occurs when a
+failed read operation is detected for
+the first time. A
+single detection is
+not critical. The following errors lead
+to an "error" when
+writing persistent
+dataSubsequent errors lead to an "error" when writing
+persistent
+If the error occurs now and then
+only
+1. Adjust the O.R. table.
+If the error occurs several
+times
+1. Adjust the O.R. table.
+2. If the error message is still
+displayed after adjustment,
+the affected controller unit
+must be replaced.
+1. Notify service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 65 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+019 Failed to register a control module
+Registration of the
+control module
+failed
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the CAN bus cabling
+and plug connections
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+01 A Failed to register a joint
+Registration of the
+joint has failed
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the CAN bus cabling
+and plug connections
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+01B Missing Control Module
+registration
+acknowledged
+The confirmed registration of the
+control module is
+missing
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the CAN bus cabling
+and plug connections
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+01C Bootloader
+interface
+was not set
+Controller cannot
+be programmed
+due to a missing
+bootloader
+1. Replace the affected control unit.
+1. Notify service
+200 Error while
+handling the
+bus messages
+Software error 1. Notify Technical support. 1. Notify service
+203 Error while
+calculating
+the flash crc.
+Software error 1. Notify Technical support. 1. Notify service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 66 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+205 Missing motion warning
+of a joint
+The sensor value
+does not change its
+value even though
+movement commands have been
+sent.
+The “warning” of
+the missing movement occurs when
+a missing movement is detected for
+the first time. A
+single detection of
+a missing movement is not critical.
+Subsequent errors
+lead to a missing
+motion "Error".
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the wiring on the affected pulse generator.
+2. Replace the pulse generator on the affected DC
+motor or replace the entire
+motor on the EC motor.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+20 A Error while
+trying to
+downramp
+the actuator.
+Actuator
+does not get
+inactive.
+Probably an
+implementation error.
+Internal information
+for software development
+1. Notify Technical support. 1. Notify service
+21F Gateway
+state REGISTER_HO
+ST was
+entered unexpectedly
+Software error 1. Notify Technical support. 1. Notify service
+220 A gateway
+failed to
+identify a
+child
+Software error 1. Notify Technical support. 1. Notify service
+221 A gateway
+failed to initialize a child
+Software error 1. Notify Technical support. 1. Notify service
+222 Failed to execute post
+construction
+of a gateway
+Software error 1. Notify Technical support. 1. Notify service
+223 Failed to get
+the joint attributes
+Software error 1. Notify Technical support. 1. Notify service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 67 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+230 A logcode
+was overwritten.
+Software error 1. Notify Technical support. 1. Notify service
+400 An initialization error occurred
+Software error 1. Notify Technical support. 1. Notify service
+401 An error in
+the jointtree
+occurred.
+Software error 1. Notify Technical support. 1. Notify service
+403 An error
+publisher
+(observed by
+master
+device) detected an error.
+Software error 1. Notify Technical support. 1. Notify service
+404 An error in
+the alive
+manager occurred.
+Software error 1. Notify Technical support. 1. Notify service
+405 An error in a
+state base
+occurred.
+Software error 1. Notify Technical support. 1. Notify service
+406 An error in a
+state init occurred.
+Software error 1. Notify Technical support. 1. Notify service
+407 An error in a
+state Running occurred.
+Software error 1. Notify Technical support. 1. Notify service
+408 An error in a
+state service
+adjusting occurred.
+Software error 1. Notify Technical support. 1. Notify service
+409 An error in a
+state service
+programming occurred.
+Software error 1. Notify Technical support. 1. Notify service
+40B A joint item
+reported a
+problem
+while notify
+observers.
+Software error 1. Notify Technical support. 1. Notify service
+40D An error
+while registration occured.
+Software error 1. Notify Technical support. 1. Notify service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 68 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+40E A GatewayItem status
+is missing on
+the bus.
+Software error 1. Notify Technical support. 1. Notify service
+40F The power
+supply unit
+proxy has reported an error.
+Software error 1. Notify Technical support. 1. Notify service
+410 The life signal from the
+master
+device supervisor is
+missing.
+The Master-Controller does not receive any signals
+from the Supervisor-Controller
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the switch positions
+of the controls: Column
+controller unit S2 “off” table
+top controller unit S2 “off”
+base controller unit S1 "off.
+2. Check the can bus cabling
+and plug connections.
+3. If the error message is still
+displayed after checking
+the switch position, replace
+the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+411 Error while
+setting the
+IR Code
+The IR code cannot
+be set
+1. Check the IR code and try
+to set it again.
+2. Replace the column controller unit.
+1. Notify service
+412 Error while
+setting the
+IR State
+N/A 1. Notify Technical support. 1. Notify service
+414 Resume
+from MasterDevicePowerDown
+failed.
+Software error 1. Notify Technical support. 1. Notify service
+420 A set/get
+command
+reported an
+error.
+Software error 1. Notify Technical support. 1. Notify service
+421 A move
+command
+reported an
+error.
+Software error 1. Notify Technical support. 1. Notify service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 69 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+422 An independent
+movement of
+a coupled
+joint has
+been
+stopped.
+Software error 1. Notify Technical support. 1. Notify service
+423 Joint coupling mismatch detected while
+moving the
+monitored
+joints.
+Software error 1. Notify Technical support. 1. Notify service
+424 Anomaly
+handling was
+requested
+but no handler is specified[programming
+error]
+Software error 1. Notify Technical support. 1. Notify service
+42 A Received a
+repeated
+move request while
+addressed
+joint s position is invalid: movement
+stopped
+Software error 1. Notify Technical support. 1. Notify service
+42B A translator
+is blocked
+(due to
+product
+spec.
+strategy)
+Software error 1. Notify Technical support. 1. Notify service
+42C Failure while
+set table axis
+speed(s).
+Software error 1. Notify Technical support. 1. Notify service
+42D Failure while
+sending
+OOB data.
+Software error 1. Notify Technical support. 1. Notify service
+501 The timeout
+for Move Acceptance
+could not be
+started.
+Software error 1. Notify Technical support. 1. Notify service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 70 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+580 An initialization error occurred
+Software error 1. Notify Technical support. 1. Notify service
+581 An error in
+the jointtree
+monitor occurred.
+Software error 1. Notify Technical support. 1. Notify service
+600 A command
+autodrive
+analog reported an error.
+Software error 1. Notify Technical support. 1. Notify service
+601 A command
+lock unlock
+reported an
+error.
+Software error 1. Notify Technical support. 1. Notify service
+603 Notification
+after patient
+orientation
+failed.
+Software error 1. Notify Technical support. 1. Notify service
+606 Sending the
+live position
+failed.
+Software error 1. Notify Technical support. 1. Notify service
+607 Requesting
+a userposition/waypoint
+timed out.
+Software error 1. Notify Technical support. 1. Notify service
+608 Failed to restore previously removed command.
+Software error 1. Notify Technical support. 1. Notify service
+610 Collision detection cannot access
+system bus.
+The master controller is not able to
+write tilt events to
+the CAN bus.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the CAN bus wiring.
+2. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+612 Collision /
+False Warning detector
+cannot be
+registered.
+Software error 1. Notify Technical support. 1. Notify service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 71 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+613 Collision detection cannot read persistent data.
+The permanent on/
+off status of the collision detection
+could not be read
+from the permanent
+memory.
+1. Activate collision detection.
+2. Replace the affected control unit.
+1. Activate collision detection.
+2. Notify service
+614 Collision detection cannot read persistent data.
+The permanent on/
+off status of the collision detection
+could not be read
+from the permanent
+memory.
+1. Activate collision detection.
+2. Replace the affected control unit.
+1. Activate collision detection.
+2. Notify service
+61D Collision prevention
+safety cannot set range
+restrictions.
+Software error 1. Notify Technical support. 1. Notify service
+61E Collision prevention
+safety cannot access
+resources.
+Software error 1. Notify Technical support. 1. Inform Service
+61F Collision prevention reports a
+checker
+ready
+timeout.
+Software error 1. Notify Technical support. 1. Inform Service
+620 Feedback
+light terminal
+cannot access driver
+ressources.
+Software error 1. Notify Technical support. 1. Inform Service
+621 Feedback
+light pattern
+map returned an error.
+Software error 1. Notify Technical support. 1. Inform Service
+622 Feedback
+light manager cannot
+access system bus.
+The master controller is not able to
+provide the information relevant for
+the feedback lights
+on the CAN bus.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the CAN bus wiring.
+2. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 72 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+623 Feedback
+light manager cannot
+read persistent data.
+The master controller is not able to
+read from the
+memory.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+624 Feedback
+light manager cannot
+write persistent data.
+The master controller is not able to
+write to the
+memory.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+625 Feedback
+light manager misses
+the initial OR
+table configuration.
+Software error 1. Notify Technical support. 1. Inform Service
+626 Feedback
+light manager cannot
+show a light
+pattern.
+Software error 1. Notify Technical support. 1. Inform Service
+630 The load cell
+measurements cannot be updated.
+The master controller is not able to
+supply current load
+cell data.
+1. Replace the affected control units.
+1. Inform Service
+632 Load recognition manager cannot
+read persistent data for
+IMU.
+The master controller is not able to
+write the calibration
+for the gyro sensor.
+1. Readjust the Gyro sensor.
+2. Replace the affected control unit.
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 73 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+634 Load recognition manager cannot
+write persistent data for
+load cells.
+The master controller is not able to
+send the values of
+the load cells.
+1. Reset the values of the
+load cells via the service
+module.
+2. Replace the affected control unit.
+1. Inform Service
+636 Load recognition manager cannot
+write persistent tare data
+for load
+cells.
+Master controller is
+not able to able to
+write excess tare
+values of the load
+cells.
+1. Calibrate the load cells.
+2. Replace the affected control unit.
+1. Inform Service
+637 Load recognition manager cannot
+write persistent tare data
+for load
+cells.
+The master controller is not able to
+write load detection
+values to the CAN
+bus.
+1. Check the CAN bus wiring.
+2. Replace the affected control unit.
+1. Inform Service
+63 A Load recognition monitor cannot
+access system bus.
+The supervisor controller is not able to
+write the plausibility
+of the load detection to the CAN
+bus.
+1. Check the CAN bus wiring.
+2. Replace the affected control unit.
+1. Inform Service
+63F Load recognition manager cannot
+properly
+setup signal
+chain.
+Software error 1. Notify Technical support. 1. Inform Service
+641 Tipping monitoring cannot access
+system bus.
+Master or the supervisor controller
+is not able to write
+load detection values to the CAN
+bus.
+1. Check the CAN bus wiring.
+2. Replace the affected control unit.
+1. Inform Service
+644 Tipping
+plausible
+safety cannot access
+driver ressources.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 74 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+660 Override
+panel cannot
+read persistent
+data.Override panel
+cannot read
+persistent
+data.
+The override panel
+cannot read persistent data.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+661 The override
+panel cannot
+read persistent data.
+The override panel
+cannot writing persistent data.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+800 An unhandled initialization error occurred.
+Software error 1. Notify Technical support. 1. Inform Service
+801 An error was
+notified by
+an unhandled
+source.
+Software error 1. Notify Technical support. 1. Inform Service
+802 Error while
+initializing
+the drivers.
+The system reports
+an error when initializing the driver.
+1. Replace the affected control unit.
+1. Inform Service
+803 The maincycle has reported an error.
+The system reports
+an error in the main
+cycle. Possibly only
+for a short time
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+Prerequisites:
+• Software error
+1. Notify Technical support.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 75 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+804 Error while
+reading connectivity bus
+messages.
+The system reports
+a possible loss of a
+received message
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus cabling
+between the column control
+and the storage area control.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+805 Error while
+reading bus
+messages.
+The system reports
+a possible loss of a
+receive message
+on the Can bus.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus cabling
+between the column control
+and the storage area control.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+806 UIChannelbluetooth reported an error.
+Software error 1. Notify Technical support. 1. Inform Service
+807 DedicatedMesgBridge reported an error.
+Software error 1. Notify Technical support. 1. Inform Service
+808 SupervisorRun signal
+missing.
+System is does not
+receive any signals
+from the Supervisor-Controller
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the switch positions
+of the controls: Column
+controller unit S2 “off” table
+top controller unit S2 “off”
+base controller unit S1 "off".
+2. Check the CAN bus wiring.
+3. If the error message is still
+displayed after checking
+the switch position, replace
+the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 76 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+809 SystemBusFirewall reported an error.
+The system reports
+a SystemBus error
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the can bus cabling
+and plug connections.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+80 A The ControlModule
+cannot be
+initialized.
+Software error 1. Notify Technical support. 1. Inform Service
+80B The persistent message
+queue could
+not be initialized from
+stored data.
+It has been
+reset.
+Buffer could not be
+read from the external memory.
+Messages can be
+lost.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+80C The task for
+the persistent message
+queue could
+not be started. Messages might
+be lost.
+Buffer could not be
+written from the external memory.
+Messages can be
+lost.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+80D Error notified
+from CompressBuffer
+The buffer could
+not access the persistent memory
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 77 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+80E Error notified
+from CompressDataBuffer
+The buffer could
+not access the persistent memory
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+80F Errors during
+construction
+Software error 1. Notify Technical support. 1. Inform Service
+810 An error occured while
+initializing
+FRAM.
+Control module
+cannot access the
+external memory
+If the error occurs now and
+then only
+1. Adjust the O.R. table.
+If the error occurs several
+times
+1. Replace the affected control unit.
+1. Inform Service
+811 Bus reported
+an error.
+Control module reports an error in the
+system bus (CAN)
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the CAN bus wiring.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+812 Connectivity
+Bus reported
+an error.
+The control module
+has reported an error with the connectivity bus (CAN)
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus cabling
+between the control unit
+and the connectivity node.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 78 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+813 Can adapter
+reported an
+error.
+Control module reports an error in the
+system bus (CAN)
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the CAN bus wiring.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+814 Connectivity
+Can adapter
+reported an
+error.
+The control module
+has reported an error with the connectivity bus (CAN)
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus cabling
+between the control unit
+and the connectivity node.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+815 CAN bus
+entered error
+passive or
+bus off state.
+Control module reports an error in the
+system bus (CAN)
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the CAN bus wiring.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+816 Connectivity
+CAN bus
+entered error
+passive or
+bus off state.
+The control module
+has reported an error with the connectivity bus (CAN)
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus cabling
+between the control unit
+and the connectivity node.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+817 NotifyTimer
+reported an
+error.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 79 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+819 An error occured while
+initializing
+IMU.
+Control module
+cannot access external IMU (Intertial
+Measurement Unit)
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+819 An error occured while
+initializing
+IMU after reset.
+Control module
+cannot access external IMU (Intertial
+Measurement Unit)
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+81 A Failed to set
+the reader in
+the group.
+Software error 1. Notify Technical support. 1. Inform Service
+81C The driver
+adc reports a
+channel conversion error.
+Software error 1. Notify Technical support. 1. Inform Service
+81D An error occured while
+initializing
+PWM.
+Software error 1. Notify Technical support. 1. Inform Service
+81E Cycle
+timeout of
+the quadrature decoder
+samples update.
+Software error 1. Notify Technical support. 1. Inform Service
+81F Quadrature
+decoder reported an error.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 80 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+820 CAN-Transceiver reported an error.
+Control module
+cannot access external CAN transceiver
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+821 Overcurrent
+group insufficient space.
+Software error 1. Notify Technical support. 1. Inform Service
+825 UiProxy
+cable reported an error.
+Software error 1. Notify Technical support. 1. Inform Service
+826 UiProxy IR
+reported an
+error.
+Software error 1. Notify Technical support. 1. Inform Service
+827 UIChannelIR
+reported an
+error.
+Software error 1. Notify Technical support. 1. Inform Service
+828 UIChannelIR
+reported an
+error.
+Software error 1. Notify Technical support. 1. Inform Service
+829 UiProxy
+bluetooth reported an error.UiProxy
+IR reported
+an error.
+Software error 1. Notify Technical support. 1. Inform Service
+82 A UIChannelbluetooth reported an error.
+Software error 1. Notify Technical support. 1. Inform Service
+82D UiProxy
+bluetooth reported an error.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 81 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+832 Error while
+reading persistent accessory
+data.
+The control module
+could not read the
+persistent data.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+833 An unsupported accessory was
+detected.
+An unsupported accessory has been
+detected
+1. An unsupported accessory
+was used.
+2. The transponder of the accessory is defective or incorrectly programmed.
+Prerequisites:
+• Software error
+1. Notify Technical support.
+1. An unsupported accessory was
+used.
+2. Inform Service
+834 Error while
+adding an
+observer
+Software error 1. Notify Technical support. 1. Inform Service
+835 Error while
+configure the
+pwm range
+Software error 1. Notify Technical support. 1. Inform Service
+836 Error while
+configure the
+overcurrent
+threshold
+The control module
+could not access
+the external D/A
+converter to set the
+overcurrent
+threshold
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+837 Error while
+configure the
+quad decoder
+Software error 1. Notify Technical support. 1. Inform Service
+839 Error while
+retrigger the
+notify cycle
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 82 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+83 A Error while
+writing persistent accessory
+data.
+The control module
+could not write persistent data to the
+external memory.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+83E Error while
+activate/deactivate Motion Monitor.
+Software error 1. Notify Technical support. 1. Inform Service
+83F An error occured in the
+notify cycle
+Software error 1. Notify Technical support. 1. Inform Service
+841 A voltage exception L1
+situation has
+been detected.
+Software error 1. Notify Technical support. 1. Inform Service
+844 Error while
+initializing
+the master
+control module.
+Software error 1. Notify Technical support. 1. Inform Service
+845 Error while
+initializing
+the supervisor control
+module.
+Software error 1. Notify Technical support. 1. Inform Service
+846 Error while
+adding gateway observer.
+Software error 1. Notify Technical support. 1. Inform Service
+847 Error while
+adding
+transponder
+reader observer.
+Software error 1. Notify Technical support. 1. Inform Service
+848 The Undervoltage
+Threshold
+could not be
+applied properly.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 83 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+850 Failed to
+properly
+setup the
+tree.
+Software error 1. Notify Technical support. 1. Inform Service
+851 Failed to
+properly
+setup the
+move commands.
+Software error 1. Notify Technical support. 1. Inform Service
+852 Failed to
+setup the
+causality
+surveillants.
+Software error 1. Notify Technical support. 1. Inform Service
+853 Failed to
+properly
+setup the set
+commands.
+Software error 1. Notify Technical support. 1. Inform Service
+856 Failed to
+properly
+setup the
+collision
+checker.
+Software error 1. Notify Technical support. 1. Inform Service
+857 Failed to
+properly
+setup the
+safeties.
+Software error 1. Notify Technical support. 1. Inform Service
+858 Failed to
+properly
+setup the restrictions.
+Software error 1. Notify Technical support. 1. Inform Service
+859 An error occured while
+calculating
+restrictions.
+Software error 1. Notify Technical support. 1. Inform Service
+Failed
+to
+read
+the
+persistent
+part
+of the
+joint
+tree.
+Failed to
+read the persistent part
+of the joint
+tree.
+Master device
+could not read the
+persistent data from
+the external
+memory
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+85E Failed to
+enter service
+adjusting.
+Software error 1. Notify Technical support. Notify service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 84 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+862 Failed to
+enter service
+adjusting.
+Master device
+could not read the
+persistent data from
+the external
+memory
+The "Warning" for
+reading persistent
+data occurs when a
+failed read operation is detected for
+the first time. A
+single detection is
+not critical. Subsequent errors lead
+to an "error" when
+reading persistent
+data.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+863 Failed to
+write persistent data.
+Master device
+could not write to
+the external
+memory
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+864 Failed to
+read persistent data on
+second try.
+Master device
+could not read the
+persistent data from
+the external
+memory
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+866 The joint tree
+monitor of
+the master
+device supervisor has
+an init error.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 85 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+867 Error while
+adding an
+observer to
+AutoPatientOrientation.
+Software error 1. Notify Technical support. 1. Inform Service
+868 A joint did
+not get ready
+nor set an
+error in time
+after start.
+Software error 1. Notify Technical support. 1. Inform Service
+86D Failed to
+properly set
+up the specific move
+commands.
+Software error 1. Notify Technical support. 1. Inform Service
+86E Error while
+initializing
+the master
+device.
+Software error 1. Notify Technical support. 1. Inform Service
+86F Error while
+adding an
+observer.
+Software error 1. Notify Technical support. 1. Inform Service
+871 Error while
+registering
+the feedback
+server at the
+move invoker.
+Software error 1. Notify Technical support. 1. Inform Service
+872 Error while
+adding an
+observer to
+the singlemove safety.
+Software error 1. Notify Technical support. 1. Inform Service
+873 Error while
+adding an
+observer to
+the joint tree.
+Software error 1. Notify Technical support. 1. Inform Service
+874 Error while
+adding an
+observer to
+the patient
+model.
+Software error 1. Notify Technical support. 1. Inform Service
+875 Failed to
+change state
+of master
+device.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 86 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+876 Failed to set
+up the joint
+ready notify
+cycle.
+Software error 1. Notify Technical support. 1. Inform Service
+879 Leg plate selection manager has reported an error.
+Software error 1. Notify Technical support. 1. Inform Service
+87 A failed to add
+a feedback
+sink.
+Software error 1. Notify Technical support. 1. Inform Service
+87B failed to notify neurolock change
+on bus.
+Software error 1. Notify Technical support. 1. Inform Service
+87C Joint tree is
+corrupt due
+to invalid
+joint position.
+Position of the joint
+is not plausible
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Adjust the O.R. table.
+2. Replace the affected
+column controller unit unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+87D Bus message handling failed.
+Software error 1. Notify Technical support. 1. Inform Service
+87E Error in hand
+control translator.
+Software error 1. Notify Technical support. 1. Inform Service
+87F Error while
+adding an
+observer to
+the ORTableVariantMonitor.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 87 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+880 Persistence
+error with
+ORTableVariant.
+Setting of the operating table variant
+is damaged
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Confirm the OR table variant (only possible with assembly access).
+2. Replace the affected
+column controller unit unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+881 Invalid combination of
+table component variants.
+Impermissible combination of table
+component variants
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Confirm the OR table variant (only possible with assembly access).
+2. Replace the affected
+column controller unit unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+883 The alternative power
+down got activated - for
+retraction of
+drivewheel.
+Software error 1. Notify Technical support. 1. Inform Service
+884 Failed to
+write table
+setup data.
+Master device
+could not write to
+the external
+memory
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+887 Failed to set
+the reverse
+position.
+Software error 1. Notify Technical support. 1. Inform Service
+888 In-room detection has
+reported an
+error.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 88 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+88 A The column
+RCProxy supervisor life
+signal is
+missing.
+N/A 1. Notify Technical support. 1. Inform Service
+88B Failed to
+store the PatientOrientation.
+Master device
+could not write PatientOrientation to
+the external
+memory
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the column controller unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+88D Master
+device cannot access
+system bus.
+The master device
+reports a possible
+loss of transmission
+messages.
+1. Check the Can bus cabling
+between the column control
+and the storage area control.
+1. Inform Service
+88F External
+control lock
+has reported
+an error.
+Software error 1. Notify Technical support. 1. Inform Service
+891 Error while
+configure the
+quad decoder
+Software error 1. Notify Technical support. 1. Inform Service
+893 A voltage exception L1
+situation has
+been detected.
+Software error 1. Notify Technical support. 1. Inform Service
+898 An error occured in the
+notify cycle
+Software error 1. Notify Technical support. 1. Inform Service
+899 Error while
+initializing
+the master
+control module.
+Software error 1. Notify Technical support. 1. Inform Service
+89B Error while
+retrigger the
+notify cycle
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 89 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+8A4 Foot drive
+motor overstress warning - wheel
+possibly
+stuck.
+Overload error of
+the food drive motor - wheel possibly
+blocked.
+The motor overload
+warning occurs
+when an overload
+of the motor is detected for the first
+time. A single detection of a motor
+overload is not critical. Subsequent
+errors lead to a motor overload “error”.
+1. Check whether the wheel is
+mechanically locked
+2. Check the distance
+between the floor and the
+drive roller.
+3. Check for collision (object
+blocks the foot from rolling
+away)).
+1. Inform Service
+8A6 MainLift
+Brake reportet an error.
+Software error 1. Notify Technical support. 1. Inform Service
+8A9 The Undervoltage
+Threshold
+could not be
+applied properly.
+Software error 1. Notify Technical support. 1. Inform Service
+8AA Failed to
+read the PatientOrientation -first try.
+Error when reading
+PatientOrientation
+from the permanent
+memory
+Read PatientOrientation “warning” occurs after the first
+attempt to read the
+PatientOrientation.
+A single detection
+is not critical. The
+following errors
+lead to a Read PatientOrientatio “error”
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Set the PatientOrientation
+new.
+2. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 90 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+8AC Unable to
+write lock
+status on
+bus from foot
+supervisor.
+Supervisor cannot
+write to the system
+bus (CAN)
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus wiring
+of the foot control.
+2. Replace the base controller
+unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+8AD Error while
+initializing
+the supervisor control
+module.
+Software error 1. Notify Technical support. 1. Inform Service
+8AE Error while
+initializing
+status cycle
+on foot supervisor
+Software error 1. Notify Technical support. 1. Inform Service
+8B0 An error in
+the jointtree
+occurred.
+N/A 1. Notify Technical support. 1. Inform Service
+8B2 A ComModule CtrlUnit
+status is
+missing on
+the bus.
+N/A 1. Notify Technical support. 1. Inform Service
+8C0 Error while
+initializing
+the master
+control module.
+Software error 1. Notify Technical support. 1. Inform Service
+8C1 Error while
+initializing
+the master
+control module.
+Software error 1. Notify Technical support. 1. Inform Service
+8C2 A voltage exception L1
+situation has
+been detected.
+Software error 1. Notify Technical support. 1. Inform Service
+8C5 Failed to
+send MasterDevice into
+PowerDown
+state.
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 91 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+8C6 Error while
+adding an
+observer
+Software error 1. Notify Technical support. 1. Inform Service
+8C7 Error while
+configure the
+pwm range
+Software error 1. Notify Technical support. 1. Inform Service
+8C8 Error while
+configure the
+overcurrent
+threshold
+The control module
+could not access
+the external D/A
+converter to set the
+overcurrent
+threshold
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+8C9 Error while
+configure the
+quad decoder
+Software error 1. Notify Technical support. 1. Inform Service
+8CC Error while
+retrigger the
+notify cycle
+Software error 1. Notify Technical support. 1. Inform Service
+8D2 Error while
+activate/deactivate Motion Monitor.
+Software error 1. Notify Technical support. 1. Inform Service
+8D3 An error occured in the
+notify cycle
+Software error 1. Notify Technical support. 1. Inform Service
+8D6 The Undervoltage
+Threshold
+could not be
+applied properly.
+Software error 1. Notify Technical support. 1. Inform Service
+8D8 An error occured in the
+notify cycle
+Software error 1. Notify Technical support. 1. Inform Service
+8DF Unallowed
+command to
+RemoteActuatorServer
+detected
+Software error 1. Notify Technical support. 1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 92 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+8E1 The Safe
+Release Port
+reported an
+error.
+Error in the "power
+release path",
+which is necessary
+to release the current for the motor
+drive.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+8F0 Failed to
+setup the
+causality
+surveillants.
+Software error 1. Notify Technical support. 1. Inform Service
+F01 The driver
+bus manager
+reports a
+possible lost
+of transmit or
+receive message.
+The CAN bus reports a possible
+loss of a send or receive message.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus wiring
+of the charger board.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F02 The driver
+can adapter
+reports a
+possible lost
+of receive
+message.
+The CAN bus adapter reports a possible loss of a receive message.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus wiring
+of the charger board.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F03 CAN bus
+entered error
+passive or
+bus off state.
+The CAN bus is in
+error status and reports a possible
+loss of a send or receive message.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus wiring
+of the charger board.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 93 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+F04 The driver
+log archive
+can not be
+initialized
+succesfully.
+Possible lost
+of error logs.
+The driver protocol
+archive cannot be
+initialized successfully.
+Possible loss of error logs.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Notify Technical support.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F05 The driver
+adc reports a
+channel conversion error. Battery
+level evaluation possibly corrupt.
+The driver of the A/
+D converter reports
+a channel conversion error.
+The evaluation of
+the battery level
+may be incorrect.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Notify Technical support.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F06 The can
+transceiver
+tle-9255W
+reports an
+error.
+Control module
+cannot access external CAN transceiver
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F07 NotifyTimer
+reported an
+error.
+Software error 1. Notify Technical support. 1. Inform Service
+F10 The application manager
+reports a
+possible lost
+of receive
+message.
+The system reports
+a possible loss of a
+received message
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus wiring
+of the charger board.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 94 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+F11 The application manager
+reports an
+error by the
+drivers initialization.
+System not
+ready for
+normal use.
+The application
+manager reports an
+error when initializing the driver.
+The system is not
+ready for normal
+use.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. The controller driver is defective. Replace affected
+control unit
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F12 The application manager
+reports a
+maincycle
+error. Possible shorttime disturbance.
+The system reports
+an error in the main
+cycle.
+Possible short-term
+disturbance.
+Software error
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Notify Technical support.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F13 The application manager
+reports a
+controller
+stack or
+heap
+memory
+overflow.
+System possibly unstable.
+The system reports
+a memory overflow.
+The system may be
+unstable.
+Software error
+Notify Technical support. 1. Inform Service
+F20 The control
+module reports persistent data corruption. Possible lost of
+data history.
+The control module
+reports persistent
+data corruption.
+Possible loss of
+data history.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Notify Technical support.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 95 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+F21 The control
+module can
+not store
+persistent
+data in extern
+memory.
+System can
+not perform
+normal use.
+The control module
+cannot save persistent data in the
+external memory.
+Possible loss of
+data history.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Notify Technical support.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F22 The control
+module reports a possible lost of
+transmit
+message.
+The control module
+reports a possible
+loss of the transmission message.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Check the Can bus wiring
+of the charger board.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F23 The control
+module was
+not able to
+determine
+some analog
+values.
+Software error 1. Notify Technical support. 1. Inform Service
+F24 The control
+module was
+not able to
+disconnect
+the batteries.
+The control module
+was not able to interrupt the connection to the batteries.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the charger board.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F25 The control
+module disconnected
+the batteries
+due to deepdischarge.
+Information Charge
+the batteries
+1. Charge the batteries. 1. Charge the
+batteries-
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 96 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+F30 The power
+manager reports persistent data corruption. Battery level
+evaluation a.
+The battery manager reports persistent data corruption.
+The evaluation of
+the battery level is
+temporarily incorrect.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F31 The power
+manager can
+not store
+persistent
+data in extern
+memory.
+System can
+not perform
+normal use.
+The battery manager cannot save
+persistent data in
+the external
+memory.
+The evaluation of
+the battery level is
+temporarily incorrect.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the affected control unit.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F32 "The power
+manager reports low
+voltage on
+battery high
+side (< 8V).
+Battery connected to X4
+is possibly
+defect."
+The battery manager reports a low
+battery voltage
+(high side / connection X4 on the charger) (< 8V).
+The battery (high
+side) may be defective.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace both batteries.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace
+both batteries.
+F33 "The power
+manager reports low
+voltage on
+battery low
+side (< 8V).
+Battery connected to X6
+is possibly
+defect."
+The battery manager reports a low
+battery voltage (low
+side / connection
+X6 on the charger)
+(< 8V).
+The battery (high
+side) may be defective.
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace both batteries.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace
+both batteries.
+Error description
+Identification of errors using the software | Software error table Warning 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 97 / 1148
+Error
+Code
+Log Text Error description
+(from Service)
+Measure Service technician
+(from Service)
+Measure hospital technician
+(from Service)
+F36 The setpoint
+for charge
+voltage and/
+or charge
+current could
+not be set
+Charger cannot access the D/A converter
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the charger board.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F37 Failed to determine a
+operating
+value of lo
+side battery
+Controller (interner
+A/D Wandler) oder
+Platine ist defekt
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the charger board.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+F38 Failed to determine a
+operating
+value of hi
+side battery
+Controller (interner
+A/D Wandler) oder
+Platine ist defekt
+If the error occurs now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Replace the charger board.
+If the error occurs
+now and then
+only it may be assessed as noncritical.
+If the error occurs several
+times
+1. Inform Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 98 / 1148
+4.2.5 | Software error table Error
+NOTICE
+Reading of errors from the error log is to be done and relevant only at an O.R.
+Table that is assembled and connected completely. During repair work PC boards,
+pulse sensors etc. may be not connected completely. This will lead to entries in the
+error logs. In addition, all entries must be considered together within the same
+period of time (timestamp). In many cases one error may create further other error
+entries. e.g.: If a PCB is defective, this may entail another error message regarding
+the missing CAN bus registration of the PCB in question. This additional error will
+also disappear by replacement of the PCB.
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+001 Supervisors
+"sign of life"
+signal is
+missing.
+The master controller does not receive
+any signals from
+the supervisor controller.
+1. Check the switch positions
+of the controls: Column
+controller unit S2 “off” table
+top controller unit S2 “off”
+base controller unit S1 "off".
+2. If the error message continues appearing frequently
+after having checked and
+corrected the switch position the controller unit must
+be replaced.
+1. Inform Service.
+004 An error in
+"on bus acknowledge"
+module occurred.
+The supervisor controller is not sending any information
+via the CAN bus or
+the CAN bus is
+faulty.
+1. Check the switch positions
+of the controls: Column
+controller unit S2 “off” table
+top controller unit S2 “off”
+base controller unit S1 "off".
+2. Check the CAN bus connection.
+3. If the error message continues appearing frequently
+after having checked and
+corrected the switch position the controller unit must
+be replaced.
+1. Inform Service.
+00B Hotplug not
+ready after
+timeout.
+N/A 1. Notify the Technical Support.
+1. Inform Service.
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10 99 / 1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+014 Error while
+reading persistent data
+from
+memory
+Error when reading
+data from the
+memory.
+1. Adjust the O.R. table.
+2. If the error message is still
+displayed after adjustment,
+the affected control unit
+must be replaced.
+1. Inform Service.
+016 Error while
+saving persistent data
+to memory
+Sensor values cannot be saved in the
+memory.
+1. Adjust the O.R. table.
+2. If the error message is still
+displayed after adjustment,
+the affected control unit
+must be replaced.
+1. Notify Service
+017 Variant value
+read from
+system bus
+and persistent memory
+do not match
+The variant could
+not be confirmed.
+1. Reset the variant in "Configure System".
+2. If the error message is still
+displayed, the affected controller unit must be replaced.
+1. Notify Service
+018 Variant value
+read from
+switch and
+persistent
+memory do
+not match
+The variant could
+not be read correctly from the external memory.
+1. Reset the variant in "Configure System".
+2. If the error message is still
+displayed, the affected controller unit must be replaced.
+1. Notify Service
+01D A cyber attack has
+been detected - DoS or
+Move2Pos
+or ...
+A cyberattack has
+been detected.
+1. Notify the Technical Support.
+1. Notify Service
+201 Error while
+reading a
+position
+sensor
+The position cannot
+be read.
+1. Check the wiring of the
+pulse generator.
+2. Adjust the O.R. table.
+1. Notify Service
+202 An error in
+safe release
+port module
+occured
+Error in the "power
+release path",
+which is necessary
+to release the current for the motor
+drive.
+1. Replace the affected control units.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+100 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+204 Unintended
+motion error
+of a joint
+An unintentional
+movement was detected.
+1. Check the motor brake and
+the mechanics of the
+column motor M1-M4.
+2. Check the pulse generator.
+3. Check the affected controller unit.
+1. Notify Service
+206 Missing motion error of
+a joint
+The sensor value
+does not change its
+value even though
+movement commands have been
+sent.
+1. In case of a movement
+check the pulse generator.
+2. If a movement is missing,
+check the motor and the
+wiring.
+3. If the pulse generators and
+the motor are in good condition, replace the controller
+unit in question.
+1. Notify Service
+207 An error in
+safe release
+port facade
+module occurred
+Software error 1. Notify the Technical Support.
+1. Notify Service
+208 An over current was detected
+An over current
+was detected.
+1. The error can be ignored if
+it was detected while the
+joint was mechanically
+overloaded.
+2. If over current is detected
+during normal operating
+conditions:
+- Check current consumption at the segment in
+question
+- Check the motor and the
+wiring
+- Replace the controller unit
+in question
+1. Notify Service
+209 Error while
+measuring
+the currents
+of the joints.
+Error in the current
+measurement on
+the affected segment.
+1. Replace the affected control unit.
+1. Notify Service
+20B Error while
+reading positions in motion monitor
+The position of the
+segment cannot be
+read.
+1. Check the wiring of the
+pulse generator.
+2. Adjust the O.R. table.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+101 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+20C An Move
+Message
+was sent
+while error in
+safe release
+port module
+occured
+Error in the "power
+release path",
+which is necessary
+to release the current for the motor
+drive.
+1. Replace the affected control unit.
+1. Notify Service
+20D Failed to
+start the position invalid
+monitor timer
+Software error 1. Notify the Technical Support.
+1. Notify Service
+20E position is invalid for too
+long
+Sensor values are
+not plausible.
+1. Check the wiring of the
+pulse generator.
+2. Adjust the O.R. table.
+1. Notify Service
+402 An error in
+the moveinvoker occurred.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+40 A A joint status
+is missing on
+the bus.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+40C An invalid
+SET_SERVICE_STAT
+E message
+was detected.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+413 The power
+supply unit is
+absent on
+CAN bus.
+The affected controller unit does not
+receive any signals
+from the charger
+board.
+1. Check that the charger
+board is working correctly.
+Connect and disconnect
+the charging voltage and
+check to see that the charging LED is switched to
+blinking and flashing light
+accordingly.
+2. If the LED is not switched
+as described, the charging
+unit must be replaced.
+3. If the LED is switched to
+blinking and flashing correctly, check the CAN bus
+wiring between the charging unit and the column
+controller unit.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+102 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+415 An unexpected register
+event
+happened:
+CM was
+already registered
+Software error 1. Notify the Technical Support.
+1. Notify Service
+42E Received a
+repeated
+move request while
+addressed
+joint s position is invalid: restricted speed
+Software error 1. Notify the Technical Support.
+1. Notify Service
+500 The supervisor detected move
+commands
+that are not
+permitted.
+The supervisor controller has detected
+unauthorised drive
+commands.
+1. Notify the Technical Support.
+1. Notify Service
+502 The supervisor life signal is not reliable.
+The master controller does not receive
+any signals from
+the supervisor controller.
+1. Check the switch positions
+of the controller units:
+Column controller unit S2
+“off” table top controller unit
+S2 “off” base controller unit
+S1 "off".
+2. Check the CAN bus connection.
+3. If the error message is still
+displayed after checking
+the switch position, the affected controller unit must
+be replaced.
+1. Notify Service
+503 The supervisor surveillant list reported an error.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+602 A command
+to change
+the patient
+orientation
+failed.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+103 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+604 Override
+user interface reported an error.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+611 Collision detection cannot access
+system bus.
+The master controller is not able to report a collision
+event on the CAN
+bus so that movement is not restricted.
+1. Check the CAN bus wiring.
+2. Replace the affected control units.
+1. Notify Service
+631 Load recognition manager cannot
+read persistent data for
+IMU.
+The master controller is not able to
+read the calibration
+of the gyro sensor.
+1. Readjust the Gyro sensor.
+2. Replace the affected control units.
+1. Notify Service
+633 Load recognition manager cannot
+read persistent data for
+load cells.
+The master controller is not able to
+read sensitivity values of the load
+cells.
+1. Set the values of the load
+cells.
+2. Replace the affected control units.
+1. Notify Service
+635 Load recognition manager cannot
+read persistent tare data
+for load
+cells.
+Master controller is
+not able to read
+tare values of the
+load cells.
+1. Calibrate the load cells.
+2. Replace the affected control units.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+104 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+638
+(1/4)
+Implausible
+load recognition signals.
+The supervisor controller of the column
+controller unit has
+detected an error in
+the load detection.
+For more precise
+identification
+“Identify error
+63837”.
+[8 Page 117]
+Sanity Check:
+1. Check the switch positions
+S1 of the table top controller unit.
+Ø Must be set to “off”
+2. Check the CAN bus wiring
+3. Replace the table top controller unit.
+Load cells unconnected:
+1. Check the plug connection
+of the affected load cell.
+2. Check the cable of the affected load cell.
+3. Replace the affected load
+cell.
+Out of range signals
+1. Adjust the gyro sensor or
+calibrate the load cell (depending on what is displayed).
+2. Replace the column controller unit.
+1. Notify Service
+638
+(2/4)
+Implausible
+load recognition signals.
+The supervisor controller of the column
+controller unit has
+detected an error in
+the load detection.
+For more precise
+identification
+“Identify error
+63837”.
+[8 Page 117]
+Plausibility Check:
+Trend or tilt fail:
+1. Adjust the trendelenburg,
+the tilting and the gyro
+sensor.
+2. Replace the table top controller unit.
+Lock position fail
+1. Adjust Lock / Unlock.
+2. Check Lock/Unlock for
+mechanical blockages.
+3. Replace the base controller
+unit.
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+105 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+638
+(3/4)
+Implausible
+load recognition signals.
+The supervisor controller of the column
+controller unit has
+detected an error in
+the load detection.
+For more precise
+identification
+“Identify error
+63837”.
+[8 Page 117]
+Software Ceck:
+Software error:
+1. Notify the Technical Support.
+638
+(4/4)
+Implausible
+load recognition signals.
+The supervisor controller of the column
+controller unit has
+detected an error in
+the load detection.
+For more precise
+identification
+“Identify error
+63837”.
+[8 Page 117]
+Working Load Check:
+1. Check the load cells.
+2. Check the O.R. Table and
+calibrate the load cells.
+3. Replace the table top controller unit
+639 Load recognition plausible safety
+misses monitor check
+message.
+The plausibility
+message from the
+supervisor controller of the table top
+controller unit was
+not received by the
+master controller of
+the column controller unit.
+1. Check the CAN bus
+cabling.
+2. Check the switch positions
+of the table top controller
+unit: Table top controller
+unit S2 "off"
+3. Replace the table top controller unit.
+4. If the error is continued to
+be displayed after the table
+top controller unit has been
+replaced, replace the
+column controller unit.
+1. Notify Service
+63B Load recognition monitor cannot
+access
+driver resources.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+63C Load recognition
+checker cannot be registered.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+106 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+63D Load recognition
+checker cannot read persistent data.
+The supervisor controller is not able to
+read from the
+memory.
+1. Replace the affected control units.
+1. Notify Service
+63E Load recognition
+checker cannot write persistent data.
+The supervisor controller is not able to
+write to the
+memory.
+1. Replace the affected control units.
+1. Notify Service
+640 Tipping prevention cannot access
+system bus.
+The master controller is not able to
+write tilt events to
+the CAN bus.
+1. Check the CAN bus
+cabling.
+2. Replace the affected control unit.
+1. Notify Service
+642 Implausible
+tipping signals.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+643 Tipping
+plausible
+safety missing monitor
+message.
+The plausibility
+message from the
+supervisor of the
+table top controller
+unit was not received by the master controller of the
+column controller
+unit.
+1. Check the CAN bus
+cabling.
+2. Check the switch positions
+of the table top controller
+unit: Table top controller
+unit S2 "off"
+3. Replace the table top controller unit.
+4. If the error is continued to
+be displayed after the table
+top controller unit has been
+replaced, replace the
+column controller unit.
+1. Notify Service
+650 Overload detection cannot access
+system bus.
+The master controller is not able to
+write excess weight
+to the CAN bus.
+1. Check the CAN bus
+cabling.
+2. Replace the affected control unit.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+107 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+662 One or more
+buttons of
+the override
+panel initially
+stuck at session start.
+The software has
+recognised one or
+more jammed buttons on the override
+foil keypad.
+The software detected at least
+one button of the override
+panel that is stuck in ON position (for a period of 10
+seconds no change of the
+switch position). This may
+also be caused by a user error
+(e.g. One of the buttons was
+pressed continuously for
+more than 10 seconds).
+1. Check if the error is recorded during a session in
+which none of the buttons
+of the override panel was
+pressed. (Error detection
+caused by user can be excluded). If yes, the controller unit and /or the connection points must be replaced.
+2. If the error is detected
+without actuating a button of the override panel:
+Replace the override foil
+keypad.
+3. Replace the AS wiring PCB
+4. Replace the column controller unit.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+108 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+663 One or more
+buttons of
+the override
+panel suddenly stuck
+during session.
+The software has
+recognised one or
+more jammed buttons on the override
+foil keypad.
+The software detected at least
+one button of the override
+panel that is stuck in ON position (for a period of 10
+seconds no change of the
+switch position). This may
+also be caused by a user error
+(e.g. One of the buttons was
+pressed continuously for
+more than 10 seconds).
+1. Check if the error is recorded during a session in
+which none of the buttons
+of the override panel was
+pressed. (Error detection
+caused by user can be excluded).
+If yes, the column controller
+unit and /or the connection
+points must be replaced.
+2. If the error is detected
+without actuating a button of the override panel:
+Replace the override foil
+keypad.
+3. Replace the AS wiring PCB
+4. Replace the column controller unit.
+1. Notify Service
+83B Error while
+reading a
+position
+sensor
+Position sensor values are not plausible.
+1. Check the Error Logs. This
+is most likely a subsequent
+error.
+2. Adjust the O.R. table.
+1. Notify Service
+83C Error at the
+encoder signal detected.
+The electronic
+hardware has recognised a Encoder
+error.
+1. Adjust the O.R. table.
+2. If the error message is still
+displayed after adjustment,
+the affected controller unit
+must be replaced
+1. Notify Service
+83D Encoder values corrupt
+because of
+counting error.
+A distorted encoder
+signal leads to a
+distorted joint position.
+1. Check the wiring of the
+pulse generator.
+2. Adjust the O.R. table.
+3. Replace the affected control units.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+109 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+842 A voltage exception L2
+situation has
+been detected.
+The control unit has
+detected too low
+voltage.
+1. Adjust the O.R. table.
+1. Check the battery.
+2. Check the charging
+voltage.
+3. Replace the affected control unit.
+1. Notify Service
+843 A voltage exception L3
+situation has
+been detected.
+The control unit has
+detected a critical
+undervoltage.
+1. Replace the affected control unit.
+1. Notify Service
+882 Error from
+SafetyGuard
+reported.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+889 Timeout
+waiting for
+Control Unit
+registration.
+Failed registration
+of control modules
+1. Check the CAN bus wiring.
+2. Replace the controller unit
+of which no registration has
+been detected.
+1. Notify Service
+890 Foot lock
+switch plausibility check
+error.
+Error during the
+plausibility check of
+the pressure switch
+of the LOCK function
+1. Adjust the O.R. table.
+2. Check the pressure switch
+(continuity test. N.O.-contact at 80 bar).
+3. Check the hydraulic system
+for leakages.
+1. Notify Service
+892 The initialization of the
+pump overcurrent detection hardware failed.
+The initialisation for
+the overcurrent recognition of the
+pump has failed.
+1. Replace the affected control unit.
+1. Notify Service
+894 A voltage exception L2
+situation has
+been detected.
+The control unit has
+detected too low
+voltage.
+1. Adjust the O.R. table.
+1. Check the battery.
+2. Check the charging
+voltage.
+3. Replace the affected control unit.
+1. Notify Service
+895 A voltage exception L3
+situation has
+been detected.
+The control unit has
+detected a critical
+undervoltage.
+1. Replace the affected control unit.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+110 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+896 The remote
+actuator M4
+Mainlift reported an error.
+The control of motor M4 is faulty.
+1. Check the switch position
+of the Column controller
+unit: S2 „off“
+2. Check the CAN bus wiring
+between the base controller
+unit and the column controller unit
+3. Replace the base controller
+unit and/or the column controller unit
+1. Notify Service
+897 The remote
+sensor M4
+Mainlift reported an error.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+89 A The drive
+wheel could
+not be completely proor retracted
+The travel unit
+could not be fully
+retracted or extended.
+1. Adjust the O.R. table.
+2. Check whether the travel
+unit is mechanically
+blocked.
+3. Check the motor of the
+travel unit (retraction and
+extension).
+1. Notify Service
+89C Error at the
+encoder signal detected.
+The electronic
+hardware has recognised a pulse
+generator error.
+1. Adjust the O.R. table.
+2. Replace the affected control unit.
+1. Notify Service
+89D Encoder values corrupt
+because of
+counting error.
+Falsified encoder
+signals led to falsified joint positions.
+1. Check the wiring and plug
+connections between the
+controller unit and the pulse
+generator.
+2. Adjust the O.R. table.
+3. Replace the affected control unit.
+1. Notify Service
+89E The voltage
+for the M4-
+Brake could
+not be initialized.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+89F Overcurrent
+of M1 - Lock/
+Unlock occured
+An overcurrent was
+detected by the
+lock/unlock function.
+1. Check whether the lock/unlock function is mechanically blocked.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+111 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+8A0 Overcurrent
+of M2 -
+DriveWheel
+down occured
+An overcurrent was
+detected by the
+travel unit (retract/
+extend).
+1. Check whether the travel
+unit (retract/extend) is
+mechanically blocked.
+1. Notify Service
+8A1 Overcurrent
+of M3 -
+Autodrive
+occured
+An overcurrent was
+detected by the
+travel unit (drive
+roller)
+1. Check whether the travel
+unit (drive roller) is mechanically blocked.
+1. Notify Service
+8A2 Overcurrent
+of M4 - Main
+Lift occured
+An overcurrent was
+detected by the
+main stroke motor
+M4.
+The error can be ignored if it
+was detected while the
+“height upward” function was
+mechanically overloaded.
+1. Check whether the main
+stroke is mechanically
+blocked.
+2. Measure the current consumption of motor 4.
+3. Check motor 4 and the wiring of this motor.
+4. Check to see that the motor
+brake is released when the
+motor is starting to move.
+5. Replace the affected control unit.
+1. Notify Service
+8A3 Error in determination
+of autodrive
+current
+The current consumption of the
+travel unit could not
+be determined.
+1. Replace the base controller
+unit.
+1. Notify Service
+8A5 Foot drive
+motor overstress error -
+wheel possibly stuck.
+Overload error of
+the travel unit motor
+- wheel possibly
+blocked.
+1. Check whether the wheel is
+mechanically blocked.
+2. Check the distance
+between the floor and the
+drive roller.
+3. Check for collision (object
+blocks the foot from rolling
+away).
+1. Notify Service
+8A7 Error while
+reading a
+position
+sensor
+Position value is
+not plausible
+1. Check the Error Logs. This
+is most likely a subsequent
+error.
+2. Adjust the O.R. table.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+112 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+8A8 The remote
+brake M4
+Mainlift reported an error.
+The remote control
+(signal comes from
+the column controller unit and is forwarded via the
+base controller unit)
+of the motor brake
+M4 is faulty.
+1. Check the switch position
+of the Column controller
+unit: S2 „off.
+2. Check the CAN bus wiring
+between the base controller
+unit and the column controller unit.
+3. Replace the base controller
+unit and/or the column controller unit
+1. Notify Service
+8AB Failed to
+read the PatientOrientation -second
+try.
+Reading the Patient
+orientation from the
+memory has failed.
+1. Set the PatientOrientation
+new.
+2. Replace the affected control unit.
+1. Notify Service
+8AF The Remote
+Supervisor
+for M4 Mainlift reported
+an error.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+8B1 A joint status
+is missing on
+the bus.
+N/A 1. Notify the Technical Support.
+1. Notify Service
+8B3 An Ethernet
+communication error occurred.
+N/A 1. Notify the Technical Support.
+1. Notify Service
+8B6 A hardware
+error occurred.
+N/A 1. Notify the Technical Support.
+1. Notify Service
+8C3 A voltage exception L2
+situation has
+been detected.
+The control unit has
+detected too low
+voltage.
+1. Adjust the O.R. table.
+1. Check the battery.
+2. Check the charging voltage
+3. Replace the affected control unit.
+1. Notify Service
+8C4 A voltage exception L3
+situation has
+been detected.
+The control unit has
+detected a critical
+undervoltage.
+1. Replace the affected control unit.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+113 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+8CA Joint position
+out of range
+Position value is
+not plausible
+1. Check the Error Logs. This
+is most likely a subsequent
+error.
+2. Adjust the O.R. table.
+1. Notify Service
+8CB Encoder values corrupt
+because of
+counting error.
+Falsified encoder
+signals led to falsified joint positions.
+1. Check the wiring and plug
+connections between the
+control unit and the pulse
+generator.
+2. Adjust the O.R. table.
+3. Replace the affected control units.
+1. Notify Service
+8CD Error while
+reading a
+position
+sensor
+Pulse generator reports an error
+1. Software problem with
+column motors M1, M2 and
+M3. Notify Technical support
+If the error occurs at column
+motor M4
+1. Check the CAN bus wiring
+between the base controller
+unit and the column controller unit.
+2. Check to see that the base
+controller unit is operating
+correctly.
+1. Notify Service
+8CE A RemoteActuator reported an error
+The remote control
+(signal comes from
+the column controller unit and is forwarded via the
+base controller unit)
+has detected a software problem or
+the connection to
+the base controller
+unit is faulty.
+1. Check the CAN bus wiring
+between the column controller unit and the base
+controller unit.
+2. Check whether the base
+controller unit is operating
+correctly.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+114 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+8CF A RemoteSensor reported an error
+The remote sensor
+(signal comes from
+the column controller unit and is forwarded via the
+base controller unit)
+has detected a software problem or
+the connection to
+the base controller
+unit is faulty.
+1. Check the CAN bus wiring
+between the column controller unit and the base
+controller unit.
+2. Check whether the base
+controller unit is operating
+correctly.
+1. Notify Service
+8D0 A RemoteBrake reported an error
+The remote brake
+(signal comes from
+the column controller unit and is forwarded via the
+base controller unit)
+has detected a software problem or
+the connection to
+the base controller
+unit is faulty.
+1. Check the CAN bus wiring
+between the column controller unit and the base
+controller unit.
+2. Check whether the base
+controller unit is operating
+correctly.
+1. Notify Service
+8D1 A Brake reported an error
+Software error 1. Notify the Technical Support.
+1. Notify Service
+8D4 An error occured within
+kinematic
+link
+Software error 1. Notify the Technical Support.
+1. Notify Service
+8D5 Communication with
+Dac088S085
+failed
+The control unit
+cannot communicate with the digitalanalogue converter.
+1. Replace the affected control unit.
+1. Notify Service
+8D7 An Actuator
+with Brake
+reported an
+error
+Software error 1. Notify the Technical Support.
+1. Notify Service
+8DE The voltage
+for the AddLift-Brakes
+could not be
+initialized.
+Software error 1. Notify the Technical Support.
+1. Notify Service
+8E0 The Safe
+Release Port
+Test failed.
+Error in the "power
+release path",
+which is necessary
+to release the current for the motor
+drive.
+1. Replace the affected control unit.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+115 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+8F1 The load recognition
+plausible
+safety challenging
+failed.
+The column master-controller is not
+able to answer
+plausibility checks
+on the CAN bus.
+1. Check the switch positions
+of the table top controller
+unit: Column controller unit
+S2
+2. Check the CAN bus wiring.
+3. Replace the affected control unit.
+1. Notify Service
+8F2 The tipping
+prevention
+plausible
+safety challenging
+failed.
+The column master-controller is not
+able to answer
+plausibility checks
+on the CAN bus.
+1. Check the switch positions
+of the table top controller
+unit: Column controller unit
+S2
+2. Check the switch position
+of the Column controller
+unit: "S2 "off.
+3. Replace the affected control unit.
+1. Notify Service
+F26 The control
+module psu
+entered "error mode"
+The charger board
+has switched to "error mode".
+Prerequisites:
+• If the batteries have just
+been replaced, then the error is to be expected and is
+OK (batteries still unbalanced). Requires several
+charging cycles until the
+batteries are "balanced"
+1. Check the battery connections.
+2. Check the batteries.
+3. Replace the batteries.
+1. Notify Service
+F34 The batteries
+are unbalanced
+Batteries are "unbalanced"
+Prerequisites:
+• If the batteries have just
+been replaced, then the
+fault is to be expected and
+is OK. It takes several charging cycles until the batteries are “balanced”.
+• If the batteries have
+already been installed for
+some time:
+1. Check the batteries.
+2. Replace the batteries.
+1. Notify Service
+Error description
+Identification of errors using the software | Software error table Error 4
+SERVICE MANUAL CORIN
+TR 770001XX EN 10
+116 /
+1148
+Error
+Code
+Log Text Error description Measure - Service engineer Measure - technical hospital
+staff
+F39 "The (fullrange) system-voltage
+is too low"
+Defective DC/DC
+converter on the
+charger.
+1. Replace the charger board. 1. Notify Service
+F3A The hardware signal
+UC-BAT-ERROR is active/high
+Batteries report an
+error.
+1. Check the batteries.
+2. Replace the batteries.
+1. Notify Service
+F40 The Leds on
+the override
+could not be
+updated
+The Leds on the
+override could not
+be updated.
+1. Check the wiring between
+the charger board and Wiring Point Override.
+2. Check the Wiring Point
+Override and replace if necessary.
+3. Replace the charger board.
